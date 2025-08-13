@@ -1,0 +1,10 @@
+OLAP - analytics - data warehoueses
+OLTP - RDBMS - structured data
+
+1. Data lakes do not support ACID properties
+2. Data lakehouse - data lake + data warehouse
+3. Lakehouses support ACID properties (combination of structured and seni-structured data)
+
+
+IMP -
+1. Cannot use WHERE for aggregated functions like count, sum, avg. We need to use HAVING.
